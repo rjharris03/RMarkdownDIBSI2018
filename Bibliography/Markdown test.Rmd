@@ -1,0 +1,40 @@
+---
+title: "Test of R Markdown"
+author: "Richard Harris"
+date: "7/9/2018"
+output: html_document
+bibliography: bibliography.bib
+csl: plos-one.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ANGUS 2018
+
+Hi team.  This is some typing.
+
+You can embed an R code chunk like this:
+
+```{r numbers, echo = FALSE}
+n <- 10
+seq(n)
+```
+
+```{r}
+
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+#references
